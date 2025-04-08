@@ -14,6 +14,7 @@ class WelcomeViewController: UIViewController {
     private let logoImage : UIImageView = {
         let image = UIImageView(frame: CGRect(x: 115, y: 87, width: 150, height: 150))
         image.image = UIImage(named: "welcomeVCimage")
+        image.contentMode = .scaleAspectFit
         return image
     }()
     
