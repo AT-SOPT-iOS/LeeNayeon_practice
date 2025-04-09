@@ -13,7 +13,7 @@ class WelcomeViewController: UIViewController {
     
     private let logoImage : UIImageView = {
         let image = UIImageView(frame: CGRect(x: 115, y: 87, width: 150, height: 150))
-        image.image = UIImage(named: "welcomeVCimage")
+        image.image = .welcomeVCimage
         image.contentMode = .scaleAspectFit
         return image
     }()
@@ -72,8 +72,11 @@ class WelcomeViewController: UIViewController {
     }
 
     private func bindID() {
-        if(id?.isEmpty != nil){
-            self.welcomeLabel.text = "\((id!.isEmpty) ? "알 수 없음" : id!)님\n반가워요!"
+        if let id = id, !id.isEmpty {
+            self.welcomeLabel.text = "\(id)님\n반가워요!"
+        }
+        else {
+            self.welcomeLabel.text = "알 수 없음님\n반가워요!"
         }
     }
     
