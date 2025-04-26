@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Target 'Sopt36Practice' in project 'Sopt36Practice' (no dependencies)
