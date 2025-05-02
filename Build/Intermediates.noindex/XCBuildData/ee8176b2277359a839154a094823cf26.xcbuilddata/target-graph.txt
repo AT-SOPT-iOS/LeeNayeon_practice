@@ -1,0 +1,17 @@
+Target dependency graph (7 targets)
+Target 'Sopt36Practice' in project 'Sopt36Practice'
+➜ Explicit dependency on target 'SnapKit-Dynamic' in project 'SnapKit'
+➜ Explicit dependency on target 'SnapKit' in project 'SnapKit'
+➜ Explicit dependency on target 'Then' in project 'Then'
+Target 'Then' in project 'Then'
+➜ Explicit dependency on target 'Then' in project 'Then'
+Target 'Then' in project 'Then' (no dependencies)
+Target 'SnapKit' in project 'SnapKit'
+➜ Explicit dependency on target 'SnapKit' in project 'SnapKit'
+➜ Explicit dependency on target 'SnapKit_SnapKit' in project 'SnapKit'
+Target 'SnapKit-Dynamic' in project 'SnapKit'
+➜ Explicit dependency on target 'SnapKit' in project 'SnapKit'
+➜ Explicit dependency on target 'SnapKit_SnapKit' in project 'SnapKit'
+Target 'SnapKit' in project 'SnapKit'
+➜ Explicit dependency on target 'SnapKit_SnapKit' in project 'SnapKit'
+Target 'SnapKit_SnapKit' in project 'SnapKit' (no dependencies)
