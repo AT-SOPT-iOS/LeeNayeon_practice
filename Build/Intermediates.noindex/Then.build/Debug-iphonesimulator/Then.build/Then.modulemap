@@ -1,4 +1,0 @@
-module Then {
-header "Then-Swift.h"
-export *
-}
