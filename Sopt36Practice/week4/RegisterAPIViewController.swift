@@ -16,7 +16,7 @@ final class RegisterAPIViewController: UIViewController {
     
     private let stackView = UIStackView().then {
         $0.axis = .vertical
-        $0.distribution = .fill
+        $0.distribution = .equalSpacing
         $0.spacing = 20
     }
     
@@ -93,7 +93,10 @@ final class RegisterAPIViewController: UIViewController {
                     preferredStyle: .alert
                 )
                 
-                let okAction = UIAlertAction(title: "확인", style: .default)
+                let okAction = UIAlertAction(title: "확인", style: .default){ _ in
+                    let nextVC = LoginAPIViewController()
+                    self.navigationController?.pushViewController(nextVC, animated: true)
+                }
                 alert.addAction(okAction)
                 self.present(alert, animated: true)
                 
