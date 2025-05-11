@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5141435D2DC73ACF00746849 /* .gitignore in Sources */ = {isa = PBXBuildFile; fileRef = 5141435C2DC73ACA00746849 /* .gitignore */; };
 		51468E0E2DA2F1EA00248501 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 51468E0D2DA2F1EA00248501 /* README.md */; };
 		51A866AA2DBCB70A00EEB826 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 51A866A92DBCB70A00EEB826 /* Then */; };
 		51A866AD2DBCB7D300EEB826 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 51A866AC2DBCB7D300EEB826 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5141435C2DC73ACA00746849 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		51468DF52DA2EFB500248501 /* Sopt36Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sopt36Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51468E0D2DA2F1EA00248501 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,6 +56,7 @@
 		51468DEC2DA2EFB500248501 = {
 			isa = PBXGroup;
 			children = (
+				5141435C2DC73ACA00746849 /* .gitignore */,
 				51468E0D2DA2F1EA00248501 /* README.md */,
 				51468DF72DA2EFB500248501 /* Sopt36Practice */,
 				51468DF62DA2EFB500248501 /* Products */,
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5141435D2DC73ACF00746849 /* .gitignore in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,1 +1,0 @@
-@rpath/Sopt36Practice.debug.dylib
